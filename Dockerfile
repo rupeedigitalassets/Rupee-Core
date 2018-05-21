@@ -2,10 +2,10 @@ FROM ubuntu:16.04
 
 MAINTAINER Ashish Srivastava <me@ashishsrivastav.com>
 
-ENV SRC_DIR /usr/local/src/rupeed
-ENV CONF_DIR /root/.rupee/
+ENV SRC_DIR /usr/local/src/Rupeed
+ENV CONF_DIR /root/.RupeeCore/
 
-ADD rupee.conf $CONF_DIR
+ADD Rupee.conf $CONF_DIR
 
 RUN set -x \
   && buildDeps=' \

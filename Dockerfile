@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 
 MAINTAINER Ashish Srivastava <me@ashishsrivastav.com>
 
-ENV SRC_DIR /usr/local/
+ENV SRC_DIR /usr/local/Rupee-Core/
 ENV CONF_DIR /root/.RupeeCore/
 
 ADD Rupee.conf $CONF_DIR

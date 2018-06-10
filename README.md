@@ -6,9 +6,8 @@ Coin Name : Rupee
 
 Ticker : RUP
 
-Coin Type : POW+POS+MN
+Coin Type : POS+MN
 
-Algorithm : Scrypt
 
 Block Time : 300 Sec
 

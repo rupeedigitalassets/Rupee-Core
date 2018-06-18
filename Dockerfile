@@ -30,7 +30,7 @@ RUN git clone https://github.com/rupeedigitalassets/RUPEE-Core.git $SRC_DIR
 
 WORKDIR $SRC_DIR/src
 
-
+RUN chmod +x secp256k1/autogen.sh
 RUN make -f makefile.unix
 
 EXPOSE 8518
